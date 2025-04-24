@@ -1,6 +1,6 @@
 # Software Defined Radio Technology Porject
 # This is a group project where I worked on Subsystem E (the PX amplifier and filter subsystem) for the SDR.
-# Details about how we design the subsystem in in the document Milestone 1
+# Details about how we design the subsystem in in the document Milestone 1 ; Final results and some pictures can be found in OP2 .
 
 # In our SDR Subsystem E project, we aimed to build a voltage booster circuit using a Class D amplifier driven by a square wave from an op-amp. Although we did not achieve the full desired amplification due to driver limitations, we successfully demonstrated signal amplification, and our measurements confirmed that the harmonic distortion remained low, showing that parts of our design were effective. Initially, LTSpice simulations worked as expected, but real-world implementation introduced problems: the op-amp failed above 2 MHz, our driver failed to deliver sufficient voltage to switch the Class D stage properly, and our MOSFET burned during breadboard testing. A critical PCB mistake—reversed op-amp inputs—rendered the board nonfunctional until we patched it with a wire. 
 
